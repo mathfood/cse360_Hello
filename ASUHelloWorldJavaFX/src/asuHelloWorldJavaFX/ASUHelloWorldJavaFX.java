@@ -14,11 +14,11 @@ public class ASUHelloWorldJavaFX extends Application {
     }
     
     public void start(Stage primaryStage) {
-    	System.out.println("ASU Hello World!");
+    	System.out.println("My Second Commit and Push");
     	System.out.println("It started!");
         primaryStage.setTitle("ASU Hello World Spring 2024");
         Button btn = new Button();
-        btn.setText("Display: 'ASU says: Hello World!'");
+        btn.setText("Display: 'Second Push and Commit'");
         btn.setOnAction(new EventHandler<>() {
             public void handle(ActionEvent event) {
                 System.out.println("ASU: Hello World!");
